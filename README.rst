@@ -51,6 +51,8 @@ Its use is quite simple:
 If one needs more control over the watcher (e.g. to add and remove watches
 dynamically), it can be configured outside of the context manager
 
+.. code-block:: python
+
     import asyncio
     import aionotify
 
